@@ -69,24 +69,16 @@ export default function AboutPage() {
               </h1>
               <div className="space-y-4 text-muted-foreground">
                 <p className="text-pretty">
-                  Frozzy nació en 2026 con un sueño sencillo: llevar el
-                  auténtico sabor del helado italiano a nuestra comunidad. Lo
-                  que comenzó como un pequeño carrito en el mercado local de
-                  agricultores se ha convertido en un lugar muy apreciado por
-                  los amantes del helado.
+                  Frozzy nace con la idea de convertir algo tan simple como tomar un helado en una experiencia para compartir.
                 </p>
                 <p className="text-pretty">
-                  Nuestro fundador, Marco Rossi, creció en Florencia viendo a su
-                  abuela elaborar helado con recetas transmitidas de generación
-                  en generación. Esa misma dedicación a la calidad y la
-                  tradición perdura en cada lote que elaboramos.
+                  Queríamos crear un espacio diferente, donde las personas pudieran disfrutar de un buen helado artesanal, probar sabores nuevos y pasar tiempo juntos de una forma más cercana y divertida.
                 </p>
                 <p className="text-pretty">
-                  Hoy en día, seguimos honrando esas tradiciones al tiempo que
-                  apostamos por la innovación. Desde sabores clásicos hasta
-                  creativas especialidades de temporada, cada creación se
-                  elabora a diario en nuestra cocina utilizando los mejores
-                  ingredientes que podemos conseguir.
+                  Por eso, en Frozzy apostamos por ingredientes naturales, elaboración artesanal y experiencias creativas como talleres y actividades para compartir momentos y crear recuerdos.
+                </p>
+                <p className="text-pretty">
+                  Más que una heladería, Frozzy busca ser un lugar al que apetezca volver por la experiencia, el ambiente y la forma en la que te hace sentir.
                 </p>
               </div>
             </div>

@@ -128,7 +128,7 @@ export function Footer() {
               <ul className="space-y-2 text-sm text-white/70">
                 <li className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-primary" />
-                  Calle de los Helados, 12, Madrid
+                  Cl. de Colón, 50, Ensanche, 46004 Valencia
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-primary" />

@@ -29,14 +29,16 @@ export function LocalFarmsSection() {
           {/* Content Side */}
           <div className="space-y-6">
             <h2 className="font-serif text-3xl font-bold tracking-tight md:text-4xl text-balance">
-              De las granjas locales a tu helado
+              Ingredientes naturales, sabor real
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Cada bola de Frozzy cuenta una historia que comienza en los campos bañados por el sol de nuestras granjas asociadas.
-              Creemos que un helado excepcional empieza por unos ingredientes excepcionales, por eso trabajamos directamente con ganaderos lecheros, huertos frutales y productores artesanales locales situados en un radio de 80 kilómetros de nuestra heladería.
+              En Frozzy creemos que un buen helado empieza por ingredientes de verdad. Por eso elaboramos nuestros productos de forma artesanal, utilizando alimentos naturales y cuidando cada detalle del proceso.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Desde la rica nata de vacas alimentadas con pasto que constituye nuestra base hasta las fresas recogidas a mano y los frutos secos recién tostados, cada ingrediente se selecciona cuidadosamente por su calidad y sostenibilidad. Esta filosofía «de la granja al cucurucho» no solo da lugar a sabores inolvidables, sino que también apoya a nuestra comunidad local y reduce nuestra huella medioambiental.
+              Seleccionamos ingredientes sin procesos industriales innecesarios y manteniendo siempre la esencia artesanal que define a la marca.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Cada sabor está pensado para disfrutarse con calma, compartiendo momentos y creando recuerdos alrededor de algo tan simple y tan especial como un helado.
             </p>
 
             {/* Features */}
@@ -46,7 +48,7 @@ export function LocalFarmsSection() {
                   <Leaf className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="font-semibold">Organico</h3>
+                  <h3 className="font-semibold">Orgánico</h3>
                   <p className="text-sm text-muted-foreground">Ingredientes con certificación ecológica</p>
                 </div>
               </div>

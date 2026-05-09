@@ -5,7 +5,7 @@ import { ArrowRight, IceCream, Sparkles } from "lucide-react"
 
 const features = [
   {
-    title: "Descubre nuestros sabore",
+    title: "Descubre nuestros sabores",
     description: "Descubre nuestra selección de helados artesanales, desde clásicos atemporales hasta innovadoras especialidades de temporada.",
     image: "/images/shop-feature.png",
     href: "/shop",

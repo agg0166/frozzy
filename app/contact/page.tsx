@@ -14,7 +14,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visitanos",
-    details: ["Calle de los Helados, 12, Madrid"],
+    details: ["Cl. de Colón, 50, Ensanche, 46004 Valencia"],
   },
   {
     icon: Phone,
@@ -84,8 +84,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="mb-2 font-serif text-2xl font-bold">Información de contacto</h2>
                 <p className="text-muted-foreground">
-                  Visítanos en nuestra tienda o ponte en contacto con nosotros a través de cualquiera de los canales que figuran a
-                  continuación.
+                  Visítanos en nuestra tienda o ponte en contacto con nosotros a través de cualquiera de los canales que figuran a continuación.
                 </p>
               </div>
 
@@ -112,7 +111,7 @@ export default function ContactPage() {
               {/* Map Placeholder */}
               <div className="aspect-video overflow-hidden rounded-2xl bg-muted">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12232.364823396794!2d-0.09669340662008488!3d39.96171349867994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6007ac7ce88023%3A0x8c040f70b9c18444!2sClub%20Las%20Palmeras!5e0!3m2!1ses!2ses!4v1775396800836!5m2!1ses!2ses"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d703.8277063974257!2d-0.3727275244659574!3d39.46937009365002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6049e6a8230f43%3A0x78fc7d3753938d79!2sCl.%20de%20Col%C3%B3n%2C%2050%2C%20Ensanche%2C%2046004%20Valencia!5e1!3m2!1ses!2ses!4v1778327144164!5m2!1ses!2ses"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
