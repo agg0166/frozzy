@@ -48,19 +48,21 @@ export function WorkshopDetailDialog({ workshop, onClose }: WorkshopDetailDialog
 
   return (
     <Dialog open={!!workshop} onOpenChange={handleOpenChange}>
-      <DialogContent className="max-h-[90vh] max-w-3xl overflow-y-auto">
+      <DialogContent className="max-h-[90vh] max-w-3xl overflow-y-auto p-0">
         <DialogHeader className="sr-only">
           <DialogTitle>{workshop.title}</DialogTitle>
         </DialogHeader>
 
         {/* Hero Image */}
-        <div className="relative -mx-6 -mt-6 mb-70 aspect-video overflow-hidden">
-          <Image
-            src={workshop.image}
-            alt={workshop.title}
-            fill
-            className="object-cover"
-          />
+        <div className="relative aspect-video">
+          <div className="relative w-full aspect-video">
+            <Image
+              src={workshop.image}
+              alt={workshop.title}
+              fill
+              className="object-cover"
+            />
+          </div>
           <div className="absolute inset-0 bg-linear-to-t from-primary to-transparent" />
           <div className="absolute bottom-4 left-4 right-4">
             <Badge className={`mb-2 rounded-full ${levelColors[workshop.level]}`}>
@@ -72,7 +74,7 @@ export function WorkshopDetailDialog({ workshop, onClose }: WorkshopDetailDialog
           </div>
         </div>
 
-        <div className="relative space-y-6 pt-2">
+        <div className="relative space-y-6 p-6 pt-2">
           {/* Rating and Instructor */}
           <div className="flex flex-wrap items-center gap-4">
             <div className="flex items-center gap-1">

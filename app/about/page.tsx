@@ -165,7 +165,7 @@ export default function AboutPage() {
           <div className="grid gap-8 text-center sm:grid-cols-2 lg:grid-cols-4">
             <div>
               <p className="mb-2 font-serif text-4xl font-bold md:text-5xl">15+</p>
-              <p className="text-primary-foreground/80">Años de excelencia</p>
+              <p className="text-primary-foreground/80">Años de excelencia de nuestro personal</p>
             </div>
             <div>
               <p className="mb-2 font-serif text-4xl font-bold md:text-5xl">50+</p>
