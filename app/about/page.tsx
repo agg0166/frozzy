@@ -132,7 +132,7 @@ export default function AboutPage() {
               <span className="text-balance">Conoce a nuestro equipo</span>
             </h2>
             <p className="mx-auto max-w-2xl text-pretty text-muted-foreground">
-              Las personas apasionadas que hay detrás de cada bola de Dolce Gelato.
+              Las personas apasionadas que hay detrás de cada bola de Frozzy.
             </p>
           </div>
 
